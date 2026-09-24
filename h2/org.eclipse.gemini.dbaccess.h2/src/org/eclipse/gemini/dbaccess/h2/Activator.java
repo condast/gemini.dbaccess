@@ -21,7 +21,7 @@ import org.osgi.service.jdbc.DataSourceFactory;
 
 public class Activator implements BundleActivator {
 
-	private ServiceRegistration service;
+	private ServiceRegistration<?> service;
 
 	public void start(BundleContext context) throws Exception {
 		Hashtable<String, String> props = new Hashtable<String, String>();
