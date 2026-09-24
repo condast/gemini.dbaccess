@@ -32,7 +32,7 @@ class EmbeddedUrlBasedDriverDataSource extends UrlBasedDriverDataSource {
      * @param embedded Whether to wrap an embedded or a client driver
      */
     public EmbeddedUrlBasedDriverDataSource(Properties properties, boolean embedded) {
-        super( properties, embedded ? new EmbeddedDriver() : new ClientDriver(), embedded );
+        super( properties, embedded ? new EmbeddedDriver() : new ClientDriver() );
     }
 
     public EmbeddedUrlBasedDriverDataSource(Properties properties) {
@@ -40,7 +40,7 @@ class EmbeddedUrlBasedDriverDataSource extends UrlBasedDriverDataSource {
     }
 
     public boolean isWrapperFor(Class<?> cls) { 
-        return super.isEmbedded() 
+        return super.isWrapperFor(cls) 
             ? (cls == EmbeddedDriver.class)
             : (cls == ClientDriver.class);
     }

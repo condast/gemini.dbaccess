@@ -13,3 +13,4 @@ Import-Package: javax.sql,
  org.osgi.service.jdbc;version="[1.0,2.0)"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: org.eclipse.gemini.dbaccess.h2

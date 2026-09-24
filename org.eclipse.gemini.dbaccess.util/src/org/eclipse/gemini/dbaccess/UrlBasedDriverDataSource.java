@@ -32,7 +32,7 @@ import static org.osgi.service.jdbc.DataSourceFactory.*;
  * An abbreviated/simplified DataSource impl that takes a URL from the client
  * and just returns a thin data source wrapper around the basic JDBC driver.
  */
-class UrlBasedDriverDataSource implements DataSource {
+public class UrlBasedDriverDataSource implements DataSource {
 
     Driver driver;
     Properties properties = null;

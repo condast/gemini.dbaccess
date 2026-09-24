@@ -1,9 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
+Automatic-Module-Name: com.mysql.jdbc
 Bundle-Name: MySQL Mock
 Bundle-SymbolicName: com.mysql.jdbc
 Bundle-Version: 1.1.0.RELEASE
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: 
  javax.sql
 Export-Package: com.mysql.jdbc;version="5.0.0",

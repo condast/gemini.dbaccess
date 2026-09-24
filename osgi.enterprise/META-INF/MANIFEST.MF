@@ -95,3 +95,4 @@ Bundle-License: http://opensource.org/licenses/apache2.0.php; link="http://www.a
 Bnd-LastModified: 1269033188762
 Bundle-Description: OSGi Service Platform Release 4 Version 4.2, Enterprise Interfaces and Classes for use in compiling bundles.
 Bundle-ActivationPolicy: lazy
+Automatic-Module-Name: osgi.enterprise
