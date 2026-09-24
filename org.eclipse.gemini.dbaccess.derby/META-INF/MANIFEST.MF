@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Automatic-Module-Name: org.eclipse.gemini.dbaccess.derby
+Bundle-Name: Gemini DBAccess module for Apache Derby
+Bundle-SymbolicName: org.eclipse.gemini.dbaccess.derby
+Bundle-Version: 1.2.0.qualifier
+Bundle-Activator: org.eclipse.gemini.dbaccess.derby.Activator
+Bundle-Vendor: Eclipse Gemini
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javax.sql,
+ org.apache.derby.jdbc,
+ org.eclipse.gemini.dbaccess,
+ org.eclipse.gemini.jdbc,
+ org.osgi.framework;version="[1.10.0,2.0.0)",
+ org.osgi.service.jdbc;version="[1.0,2.0)"
